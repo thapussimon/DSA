@@ -7,6 +7,7 @@ public class SinglyLinkedList {
         Node node3 = new Node(3, node4);
         Node node2 = new Node(2, node3);
         head = new Node(1, node2);
+
 //        print(head);
 //        length(head);
 //        System.out.println(search(100));
@@ -33,8 +34,11 @@ public class SinglyLinkedList {
 //        print(head);
 //        deleteRear();
 //        print(head);
-        addAfter(4, 300);
-        print(head);
+//        addAfter(4, 300);
+//        print(head);
+
+
+
     }
 
     //Traversing The array
@@ -226,5 +230,7 @@ public class SinglyLinkedList {
 
     }
 
+   //Advanced Operations
+  
 
 }
