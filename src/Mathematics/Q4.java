@@ -16,9 +16,11 @@ public class Q4 {
     public static int count(int n){
         int fact=1;
         int res=0;
+        //I am calculating the factorial of a number here
         for (int i=2;i<=n;i++){
             fact*=i;
         }
+        //I am calculating whether the factorial have trailing zeros here
         while (fact%10==0){
             res++;
             fact/=10;
