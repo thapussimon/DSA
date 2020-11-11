@@ -7,7 +7,7 @@ import static Mathematics.Q7.isPrime;
 
 public class Q10 {
     //Print all prime numbers less than or equal to the given number
-    //Sieve Of Eratosthenes
+    //Sieve Of Eratosthenes is the most efficient way to do this problem
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         int num=scanner.nextInt();
